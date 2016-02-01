@@ -1,0 +1,4 @@
+Posts to local server port 8080 
+
+>$postParams = @{disp=160;wt=2620;hp=110}
+>Invoke-WebRequest -Uri http://127.0.0.1:8080/mpg_api -Method POST -Body $postParams
